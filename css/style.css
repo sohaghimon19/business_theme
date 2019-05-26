@@ -1,0 +1,184 @@
+/*
+Theme Name: business_theme
+Theme URI: https://sohagdev.com/project.html/business_theme
+Author: Sohag Himon
+Author URI: https://sohagdev.com
+Description: A custom business theme form scratch
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, sidebar, responsive, animal, icon, font, business
+Text Domain: business_theme
+*/
+body {
+  padding-top: 20px;
+  font-size: 15px;
+  color: #7a7a7a;
+  line-height: 1.7em;
+}
+a{
+  color: #E94E38;
+}
+.btn-primary{
+  background-color: #E94E38;
+  color: #fff;
+}
+.btn-primary:hover,
+.btn-primary:focus{
+  background: #fff;
+  color: #E94E38;
+  border-color: #E94E38;
+  transition: 0.3s all ease-in;
+}
+.nav-pills >li.active > a,
+.nav-pills >li.active > a:hover,
+.nav-pills >li.active > a:focus{
+  background-color: #E94E38;
+}
+
+.container{
+  max-width:1200px;
+}
+
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+/* .header ends */
+.jumbotron{
+    text-align: left;
+    color: #fff;
+    border-bottom: 1px solid #e5e5e5;
+    padding: auto 100px;
+    background-image: url(../img/search-background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* .jumbotron ends */
+article.post img{
+  width: 100%;
+}
+.block{
+  border: 1px solid #ccc;
+  margin: 0;
+  padding: 20px 20px 30px 20px;
+  text-align: center;
+
+}
+.block h3{
+  color: #E94E38;
+}
+.fa{
+  color: #E94E38;
+}
+.fa-3{
+  font-size: 4em !important;
+}
+.marketing{
+  margin: 40px 0;
+}
+.content-region-1{
+  background: #E94E38;
+  color: #fff;
+  text-align: center;
+}
+.content-region-2{
+  background: #f4f4f4;
+  color: #333333;
+}
+.content-region-3 a{
+  text-decoration: none;
+}
+.content-region-3{
+  background-image: url(../img/footer-image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.content-region-2 img{
+  width: 100%;
+}
+.content-region-3 h4{
+  border-left: 5px solid #E94E38;
+  padding-left: 8px;
+  margin-bottom: 20px;
+}
+.content-region-1 h1, .content-region-2 h2{
+  margin: 0;
+  padding: 0;
+  padding-bottom: 15px;
+  font-size: 40px; 
+}
+.content-region-3 form input[type="text"], .content-region-3 form textarea{
+  width: 100%;
+  padding: 5px;
+  color: #333333;
+  margin-bottom: 10px;
+  border: 0; 
+}
+.pt20{padding-top:20px;}
+.pb20{padding-bottom:20px;}
+.pt30{padding-top:30px;}
+.pb30{padding-bottom:30px;}
+.pt40{padding-top:40px;}
+.pb40{padding-bottom:40px;}
+.pt50{padding-top:50px;}
+.pb50{padding-bottom:50px;}
+.pt60{padding-top:60px;}
+.pb60{padding-bottom:60px;}
+.side-widget{
+  margin-bottom: 40px;
+}
+.side-widget h3{
+  border-left: 5px solid #E94E38;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+.title-bar{
+  background-color: #E94E38;
+  color: #Fff;
+  padding-bottom: 10px;
+  
+}
+article.post{
+  border-bottom: 1px #ccc solid;
+  overflow:auto;
+  padding-bottom:30px;
+  margin-bottom: 40px;
+}
+
+
+article.post .meta{
+  border-top:#ccc solid 1px;
+  border-bottom:#ccc solid 1px;
+  overflow:auto;
+  list-style: none;
+  margin:0;
+  padding:5px 0;
+}
+
+article.post .meta li{
+  float:left;
+  margin-right:20px;
+}
+
+article.post img{
+  width:100%;
+  margin-bottom: 20px;
+}
+
+
+.footer {
+  padding-top: 19px;
+  color: #f4f4f4;
+  border-top: 1px solid #e5e5e5;
+}
+
